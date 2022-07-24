@@ -1,10 +1,20 @@
 import IntroText from "../components/home_page/IntroText";
+import NavBar from "../components/NavBar";
+import MyPic from "../components/home_page/MyPic";
+
+import Link from "next/link";
 
 export default function HomePage() {
   return (
     <div>
       <div>
+        <NavBar />
+      </div>
+      <div>
         <IntroText />
+      </div>
+      <div>
+        <MyPic />
       </div>
     </div>
   );
