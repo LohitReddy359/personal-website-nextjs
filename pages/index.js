@@ -1,6 +1,7 @@
 import IntroText from "../components/home_page/IntroText";
 import NavBar from "../components/NavBar";
 import MyPic from "../components/home_page/MyPic";
+import SocialMedia from "../components/home_page/SocialMedia"
 
 import Link from "next/link";
 
@@ -15,6 +16,9 @@ export default function HomePage() {
       </div>
       <div>
         <MyPic />
+      </div>
+      <div>
+        <SocialMedia />
       </div>
     </div>
   );
