@@ -1,16 +1,16 @@
-function IntroText(props) {
+function IntroText() {
   return (
     <div>
       <h1 className="name">
-        Hey,
+        LOHIT
         <br />
-        I'm Lohit
+        KAMATHAM
       </h1>
-      <h1 className="career">
+      <p className="career">
         University of Michigan, Ann Arbor
         <br />
         Computer Science | Economics
-      </h1>
+      </p>
     </div>
   );
 }

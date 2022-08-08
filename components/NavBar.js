@@ -11,6 +11,9 @@ function NavBar() {
         </div>
         <ul className="nav-items">
           <li>
+            <Link href="#">About</Link>
+          </li>
+          <li>
             <Link href="#">Experience</Link>
           </li>
           <li>
