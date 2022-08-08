@@ -15,9 +15,6 @@ export default function HomePage() {
         <IntroText />
       </div>
       <div>
-        <MyPic />
-      </div>
-      <div>
         <SocialMedia />
       </div>
     </div>
