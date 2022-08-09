@@ -14,7 +14,7 @@ function Skills() {
         <div className="tech-skills-container">
           <ul className="tech-skills-items">
             <li>
-              <h2>Programming</h2>
+              <h3>Programming</h3>
               <ul>
                 <li>Python</li>
                 <li>C++</li>
@@ -22,7 +22,7 @@ function Skills() {
               </ul>
             </li>
             <li>
-              <h2>Web Development</h2>
+              <h3>Web Development</h3>
               <ul>
                 <li>HTML + CSS</li>
                 <li>Javascript</li>
@@ -32,13 +32,13 @@ function Skills() {
               </ul>
             </li>
             <li>
-              <h2>Database Management</h2>
+              <h3>Database Management</h3>
               <ul>
                 <li>MySQL</li>
               </ul>
             </li>
             <li>
-              <h2>AI/ML</h2>
+              <h3>AI/ML</h3>
               <ul>
                 <li>Tensorflow</li>
                 <li>SckitLearn</li>
