@@ -17,7 +17,7 @@ function NavBar() {
             <Link href="experience">Experience</Link>
           </li>
           <li>
-            <Link href="#">Projects</Link>
+            <Link href="projects">Projects</Link>
           </li>
           <li>
             <Link href="#">Contact</Link>
