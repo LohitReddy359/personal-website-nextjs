@@ -1,6 +1,6 @@
-import IntroText from "../components/home_page/IntroText";
+import IntroText from "../components/home/IntroText";
 import NavBar from "../components/NavBar";
-import SocialMedia from "../components/home_page/SocialMedia"
+import SocialMedia from "../components/home/SocialMedia"
 
 import Link from "next/link";
 
