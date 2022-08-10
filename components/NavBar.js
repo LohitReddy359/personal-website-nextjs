@@ -20,7 +20,7 @@ function NavBar() {
             <Link href="projects">Projects</Link>
           </li>
           <li>
-            <Link href="#">Contact</Link>
+            <Link href="contact">Contact</Link>
           </li>
         </ul>
       </nav>

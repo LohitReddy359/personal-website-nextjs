@@ -1,6 +1,6 @@
-import IntroPara from "../../components/about_page/IntroPara";
-import MyPic from "../../components/about_page/MyPic";
-import Skills from "../../components/about_page/Skills";
+import IntroPara from "../../components/about/IntroPara";
+import MyPic from "../../components/about/MyPic";
+import Skills from "../../components/about/Skills";
 import SectionHeading from "../../components/SectionHeading";
 
 export default function AboutPage() {
