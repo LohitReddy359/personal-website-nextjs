@@ -1,12 +1,13 @@
+import styles from './introtext.module.css'
 function IntroText() {
   return (
-    <div>
-      <h1 className="name">
+    <div className = {styles.introtext}>
+      <h1>
         LOHIT
         <br />
         KAMATHAM
       </h1>
-      <p className="career">
+      <p>
         University of Michigan, Ann Arbor
         <br />
         Computer Science | Economics
