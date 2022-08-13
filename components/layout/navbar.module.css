@@ -1,5 +1,5 @@
 .navcontainer {
-    color: #a41cab;
+    color: #ffffff;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -8,31 +8,41 @@
 	-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 	-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 	transition: transform 1s ease, opacity 1s ease;
-    background: rgba(255, 255, 255, 0.175);
-	height: 4rem;
-	line-height: 4rem;
-	margin: -1rem auto 0 auto;
-    padding: 0 2rem 0 0;
+	line-height: 3.3rem;
+	margin: -0.5rem auto 0 auto;
+    padding: 0 0 0 0;
 	position: relative;
-    width: calc(100% - 4rem);
-    max-width: 72rem;
+    width: calc(100%);
+    max-width: 1000rem;
+    height: 8rem;
     z-index: 2;
-
+    background-image: url('../../assets/Navbar_bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: right;
 }
 
-.navcontainer ul.divided li {
+.logo {
+    width: 100px;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navcontainer ul:not(:first-child).divided li {
     border-top-color: #ffffff;
 }
 
 .navcontainer a {
-    color: #0095d1;
+    color: #ffffff;
+    opacity: 1;
     border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
 
 .navcontainer a:hover {
     border-bottom-color: transparent;
-    color: #18bfef !important;
+    color: #73ff00 !important;
 }
 
 
@@ -66,9 +76,10 @@
     font-weight: 900;
     letter-spacing: 0.075em;
     list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
     text-transform: uppercase;
+    align-items :center;
+    padding-left: 20rem;
+
 }
 
 .navcontainer ul.navitems li {
@@ -82,14 +93,14 @@
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     display: block;
-    font-size: 0.8rem;
+    font-size: 1.4rem;
     outline: none;
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 
 .navcontainer ul.navitems li a:hover {
     color: inherit !important;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.196);
 }
 
 .navcontainer ul.navitems li.active {
@@ -104,3 +115,21 @@
             color: #18bfef !important;
         }
 
+
+        .navcontainer ul.navitems li .logoimg:hover {
+            color: inherit !important;
+            background-color: rgba(255, 255, 255, 0.196);
+            cursor: pointer;
+        }
+        
+
+        
+            .navcontainer ul.navitems li.active .logoimg {
+                color: #1e252d;
+            }
+        
+                .navcontainer ul.navitems li.active .logoimg:hover {
+                    color: #18bfef !important;
+                }
+        
+        
