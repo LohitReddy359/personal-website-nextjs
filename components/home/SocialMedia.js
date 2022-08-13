@@ -5,29 +5,31 @@ import git from "../../assets/icons/github.png"
 import linkedin from "../../assets/icons/linkedin.png"
 import insta from "../../assets/icons/instagram.png"
 
+import styles from './socialmedia.module.css'
+
 
 function SocialMedia() {
   return (
-    <div className="soc-med-container">
-      <ul className="soc-med-items">
+    <div className = {styles.socmedcontainer}>
+      <ul className={styles.socmeditems}>
         <li>
             <Link href="mailto:kamatham.lohit@gmail.com">
-                <Image src={mail} />
+                <a><Image src={mail} /></a>
             </Link>
         </li>
         <li>
             <Link href="https://github.com/LohitReddy359">
-                <Image src={git} />
+                <a><Image src={git} /></a>
             </Link>
         </li>
         <li>
             <Link href="https://www.linkedin.com/in/lohit-kamatham-52b183226/">
-                <Image src={linkedin} />
+                <a><Image src={linkedin} /></a>
             </Link>
         </li>
         <li>
             <Link href="https://www.instagram.com/lohit_reddyk/">
-                <Image src={insta} />
+                <a><Image src={insta} /></a>
             </Link>
         </li>
       </ul>
