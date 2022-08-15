@@ -3,7 +3,7 @@ import SocialMedia from "../components/home/SocialMedia"
 
 import Link from "next/link";
 
-import styles from './homepage.module.css'
+import styles from '../styles/css/homepage.module.css'
 
 export default function HomePage() {
   return (

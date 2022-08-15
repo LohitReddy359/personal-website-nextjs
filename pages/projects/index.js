@@ -1,7 +1,7 @@
 import ProjectsList from "../../components/projects/ProjectList";
 import { projects_data } from "../../components/projects/ProjectData";
 
-import styles from "./projectspage.module.css";
+import styles from "../../styles/css/projectspage.module.css";
 
 export default function Projects() {
   return (

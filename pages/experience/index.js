@@ -1,7 +1,7 @@
 import WorkExperienceList from '../../components/experience/WorkExperienceList';
 import {experiences_data} from '../../components/experience/WorkExperienceData'
 
-import styles from './experiencepage.module.css'
+import styles from '../../styles/css/experiencepage.module.css'
 
 
 export default function WorkExperience() {

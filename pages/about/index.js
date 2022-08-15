@@ -3,7 +3,7 @@ import MyPic from "../../components/about/MyPic";
 import Skills from "../../components/about/Skills";
 import SectionHeading from "../../components/SectionHeading";
 
-import styles from "./aboutpage.module.css";
+import styles from "../../styles/css/aboutpage.module.css";
 
 export default function AboutPage() {
   return (

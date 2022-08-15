@@ -1,11 +1,11 @@
-.experiencepage {
-    background-image: url("../Homepage4_bg.png");
+.projectspage {
+    background-image: url("../../assets/Homepage4_bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
   
-  .experiencepage article {
+  .projectspage article {
       -moz-transform: translateY(0.25rem);
       -webkit-transform: translateY(0.25rem);
       -ms-transform: translateY(0.25rem);
@@ -28,7 +28,7 @@
       top: 90%;
   }
   
-      .experiencepage article{
+      .projectspage article{
           -moz-transform: translateY(0);
           -webkit-transform: translateY(0);
           -ms-transform: translateY(0);
@@ -38,7 +38,7 @@
   
   
   
-  .experiencepage li {
+  .projectspage li {
       list-style: none;
       padding-right: 3.5rem;
   }
