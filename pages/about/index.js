@@ -3,21 +3,25 @@ import MyPic from "../../components/about/MyPic";
 import Skills from "../../components/about/Skills";
 import SectionHeading from "../../components/SectionHeading";
 
+import styles from "./aboutpage.module.css";
+
 export default function AboutPage() {
   return (
-    <div>
-      <div>
-        <SectionHeading text="About Me" />
-      </div>
-      <div>
-        <MyPic />
-      </div>
-      <div>
-        <IntroPara />
-      </div>
-      <div>
-        <Skills />
-      </div>
+    <div className={styles.aboutpage}>
+      <article>
+        <div>
+          <SectionHeading text="About Me" className={styles.heading} />
+        </div>
+        <div>
+          <MyPic className={styles.mypic} />
+        </div>
+        <div>
+          <IntroPara />
+        </div>
+        <div>
+          <Skills />
+        </div>
+      </article>
     </div>
   );
 }
