@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/Image";
+import Image from "next/image";
 import mail from "../../assets/icons/mail.png"
 import git from "../../assets/icons/github.png"
 import linkedin from "../../assets/icons/linkedin.png"
