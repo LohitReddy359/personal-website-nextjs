@@ -1,11 +1,14 @@
 import WorkExperienceList from '../../components/experience/WorkExperienceList';
 import {experiences_data} from '../../components/experience/WorkExperienceData'
 
+import styles from './experiencepage.module.css'
 
 
 export default function WorkExperience() {
-  return (<div>
+  return (<div className = {styles.experiencepage}>
+    <article>
     <WorkExperienceList experiences = {experiences_data} />
+    </article>
   </div>);
 }
 
