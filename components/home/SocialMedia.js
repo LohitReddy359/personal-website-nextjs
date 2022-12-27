@@ -18,12 +18,12 @@ function SocialMedia() {
             </Link>
         </li>
         <li>
-            <Link href="https://github.com/LohitReddy359">
+            <Link href="https://github.com/lohitk1">
                 <a><Image src={git} /></a>
             </Link>
         </li>
         <li>
-            <Link href="https://www.linkedin.com/in/lohit-kamatham-52b183226/">
+            <Link href="https://www.linkedin.com/in/lohitk">
                 <a><Image src={linkedin} /></a>
             </Link>
         </li>
