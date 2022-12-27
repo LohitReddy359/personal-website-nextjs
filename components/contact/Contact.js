@@ -56,12 +56,12 @@ function Contact() {
             <h3>Social</h3>
             <ul className={styles.iconsalt}>
               <li>
-                <a href="https://www.linkedin.com/in/lohit-kamatham-52b183226/" className={styles.icon}>
+                <a href="https://www.linkedin.com/in/lohitk" className={styles.icon}>
                   <span className={styles.label}>Linkedin</span>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/LohitReddy359" className={styles.icon}>
+                <a href="https://github.com/lohitk1" className={styles.icon}>
                   <span className={styles.label}>Github</span>
                 </a>
               </li>
