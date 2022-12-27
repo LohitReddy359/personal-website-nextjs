@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className = {styles.footer}>
         <section>
-          <form method="post" action="#" className = {styles.formf}>
+          <form method="post" action="" className = {styles.formf}>
             <div className={styles.fields}>
               <div className={styles.field}>
                 <label for="name" className = {styles.labell}>Name </label>
