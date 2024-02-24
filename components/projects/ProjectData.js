@@ -21,12 +21,12 @@ export const projects_data = [
   },
   {
     id: 3,
-    title: "Attendance Monitor Web App",
-    date: "May 2020 - Sep 2020",
-    tech: "Django, React, Redux",
+    title: "gravity Gun",
+    date: "",
+    tech: "Unity",
     description:
-      "Designed and created an online attendance tracker for the company InsemiTechnologies along with a team of 4 interns in order to monitor the attendance of employees during any work from home period",
-    link: "https://github.com/arnyboy101/InsemiTimeSheet",
+      "Entire game made by me",
+    link: "https://lohitk1.itch.io/gravity-gun",
   },
   {
     id: 4,
