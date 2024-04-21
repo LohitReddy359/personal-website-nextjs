@@ -8,7 +8,7 @@ export const projects_data = [
     tech: "Unity, C#, Git",
     description:
       "3D Adventure-Puzzle Character Switching Game where attend a corporate test against AI to secure a job",
-    link: "https://lohitk1.itch.io/gravity-gun",
+    link: "https://wildworkslabs.itch.io/robozoo-laid-off",
   },  
   {
     id: 1,
