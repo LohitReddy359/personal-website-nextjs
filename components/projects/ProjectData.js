@@ -7,7 +7,7 @@ export const projects_data = [
     date: "Mar 2024 - April 2024",
     tech: "Unity, C#, Git",
     description:
-      "3D Adventure-Puzzle Character Switching Game where attend a corporate test against AI to secure a job",
+      "3D Adventure-Puzzle Character Switching Game where you attend a corporate test against AI robots to try and secure a job. I made the cheetah's mechanics and the level design for level 1. I also made all the enemies in the game. Added the camera pans and helped make the other levels as well",
     link: "https://wildworkslabs.itch.io/robozoo-laid-off",
   },  
   {
